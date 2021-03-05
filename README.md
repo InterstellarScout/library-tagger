@@ -2,7 +2,7 @@
 This project is used to organize your library and output a catalog of what is where, 
 and what is in each directory and item.  
 
-##Main Features:
+## Main Features:
 - Separate PDF's or files with the same name into folders
 - Output a file with the names and contents of everything in the directory. 
 - This program can run over an already sorted set, and mark what has not been marked. 
@@ -12,7 +12,7 @@ and what is in each directory and item.
 three genre's, Literature, Comics, Fiction, and Fantasy. The base directory is defined by where the script is sitting. 
 - It can grab the first page of a PDF and save it as a JPG for previews.
 
-##What's includes?
+## What's includes?
 There are two script included in this project:
 1. LibraryTagger.py
 2. FileOrganizer.py
@@ -23,12 +23,12 @@ broken apart into directories.
 The FileOrganizer.py is intended to run against a single directory that has not been organized into folders. It works
 a lot like another project located at https://github.com/InterstellarScout/file-organizer
 
-##Usage:
+## Usage:
 1. Update the walk_dir with the directory you will me organizing. 
 2. Run the command: ```python3 LibraryTagger.py```
 
 
-##Dependencies:
+## Dependencies:
 - Python3
 - os
 - math import log
@@ -36,7 +36,7 @@ a lot like another project located at https://github.com/InterstellarScout/file-
 - PyPDF2
 - Poppler for Windows (see below)
 
-##Installing Poppler:
+## Installing Poppler:
 In order to get a jpg of the first page of a PDF, you need Poppler. 
 1. Use the included package or download the package from https://blog.alivate.com.au/poppler-windows/
 2. With the package, unzip it and place the contents into your user's Program Files. 
@@ -50,7 +50,7 @@ In order to get a jpg of the first page of a PDF, you need Poppler.
 At the end of this, our script can now access the components offered by Poppler.
 
 
-##Samples:
+## Samples:
 
 The index.txt created in a directory looks like this:
 ```
